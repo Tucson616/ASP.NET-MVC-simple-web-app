@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Проверка пользователя</h1>
+    <form asp-action ="Check" method="get">
+        <p><input type="text" name="User"/></p>
+        <p><button type="submit">Проверить</button></p>
+    </form>
+</div>
